@@ -965,7 +965,8 @@ export declare interface ListEntry {
         duration?: number,
         episodes?: number,
         volumes?: number,
-        chapters?: number
+        chapters?: number,
+        coverImage?: CoverImage
     },
     status: MediaStatus,
     score: number,
